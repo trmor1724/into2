@@ -38,10 +38,7 @@ else:
   st.write("No has presionado eso")
 
 st.subheader("Selectbox")
-in_mod = st.Selectbox(
-  "Selecciona la modalidad"
-  ("Audio","Visual","Háptico"),
-)
+in_mod = st.Selectbox("Selecciona la modalidad"("Audio","Visual","Háptico"),)
                   
   
   
