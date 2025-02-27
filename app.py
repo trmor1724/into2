@@ -10,8 +10,8 @@ image = Image.open("gato.jpg")
 st.image(image, caption="GATO")
 
 
-texto = st.text_intput("Escribe algo","Este es mi texto")
-st.write("El texto escrito es",texto)
+texto = st.text_input("Escribe algo", "Este es mi texto")
+st.write("Texto ingresado:", texto)
 
 st.subheader("Ahora usemos 2 columnas")
 
