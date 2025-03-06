@@ -54,7 +54,7 @@ st.write("La acción es:",set_mod)
 
 translator = Translator()
 st.title('Analisis de satifaccion')
-image = Image.open("HOLA.jpg")
+image = Image.open("HOLA.jpeg")
 
 st.subheader("Por favor escribe en el campo de texto la frase que deseas analizar")
 with st.sidebar:
