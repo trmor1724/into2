@@ -53,7 +53,8 @@ elif in_mod == "Háptico":
 st.write("La acción es:",set_mod)
 
 translator = Translator()
-st.title('Uso de textblob')
+st.title('Analisis de satifaccion')
+image = Image.open("HOLA.jpg")
 
 st.subheader("Por favor escribe en el campo de texto la frase que deseas analizar")
 with st.sidebar:
